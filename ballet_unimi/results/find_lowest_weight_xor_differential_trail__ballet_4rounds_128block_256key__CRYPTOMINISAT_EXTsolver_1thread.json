@@ -1,0 +1,291 @@
+{
+    "cipher": "ballet_p128_k256_o128_r4",
+    "model_type": "xor_differential",
+    "solver_name": "CRYPTOMINISAT_EXT",
+    "solving_time_seconds": 0.9400000000000001,
+    "memory_megabytes": 8960.0,
+    "components_values": {
+        "plaintext": {
+            "value": "0x10080000020000000001000001008000"
+        },
+        "key": {
+            "value": "0x0000000000000000000000000000000000000000000000000000000000000000"
+        },
+        "xor_0_0": {
+            "value": "0x02010000",
+            "weight": 0
+        },
+        "xor_0_1": {
+            "value": "0x02000000",
+            "weight": 0
+        },
+        "rot_0_2": {
+            "value": "0x02000004",
+            "weight": 0
+        },
+        "rot_0_3": {
+            "value": "0x02000004",
+            "weight": 0
+        },
+        "modadd_0_4": {
+            "value": "0x00000000",
+            "weight": 2
+        },
+        "rot_0_5": {
+            "value": "0x40000080",
+            "weight": 0
+        },
+        "rot_0_6": {
+            "value": "0x40000080",
+            "weight": 0
+        },
+        "modadd_0_7": {
+            "value": "0x00000000",
+            "weight": 2
+        },
+        "xor_0_8": {
+            "value": "0x00010000",
+            "weight": 0
+        },
+        "intermediate_output_0_9": {
+            "value": "0x0000000000000000",
+            "weight": 0
+        },
+        "intermediate_output_0_10": {
+            "value": "0x02000000000000000000000000010000",
+            "weight": 0
+        },
+        "rot_0_11": {
+            "value": "0x0000000000000000",
+            "weight": 0
+        },
+        "rot_0_12": {
+            "value": "0x0000000000000000",
+            "weight": 0
+        },
+        "xor_0_13": {
+            "value": "0x0000000000000000",
+            "weight": 0
+        },
+        "rot_0_14": {
+            "value": "0x0000000000000000",
+            "weight": 0
+        },
+        "rot_0_15": {
+            "value": "0x0000000000000000",
+            "weight": 0
+        },
+        "xor_0_16": {
+            "value": "0x0000000000000000",
+            "weight": 0
+        },
+        "constant_0_17": {
+            "value": "0x0000000000000000",
+            "weight": 0
+        },
+        "xor_0_18": {
+            "value": "0x0000000000000000",
+            "weight": 0
+        },
+        "xor_1_0": {
+            "value": "0x00000000",
+            "weight": 0
+        },
+        "xor_1_1": {
+            "value": "0x00000000",
+            "weight": 0
+        },
+        "rot_1_2": {
+            "value": "0x80000000",
+            "weight": 0
+        },
+        "rot_1_3": {
+            "value": "0x00000000",
+            "weight": 0
+        },
+        "modadd_1_4": {
+            "value": "0x80000000",
+            "weight": 0
+        },
+        "rot_1_5": {
+            "value": "0x80000000",
+            "weight": 0
+        },
+        "rot_1_6": {
+            "value": "0x00000000",
+            "weight": 0
+        },
+        "modadd_1_7": {
+            "value": "0x80000000",
+            "weight": 0
+        },
+        "xor_1_8": {
+            "value": "0x00000000",
+            "weight": 0
+        },
+        "intermediate_output_1_9": {
+            "value": "0x0000000000000000",
+            "weight": 0
+        },
+        "intermediate_output_1_10": {
+            "value": "0x00000000800000008000000000000000",
+            "weight": 0
+        },
+        "rot_1_11": {
+            "value": "0x0000000000000000",
+            "weight": 0
+        },
+        "rot_1_12": {
+            "value": "0x0000000000000000",
+            "weight": 0
+        },
+        "xor_1_13": {
+            "value": "0x0000000000000000",
+            "weight": 0
+        },
+        "rot_1_14": {
+            "value": "0x0000000000000000",
+            "weight": 0
+        },
+        "rot_1_15": {
+            "value": "0x0000000000000000",
+            "weight": 0
+        },
+        "xor_1_16": {
+            "value": "0x0000000000000000",
+            "weight": 0
+        },
+        "constant_1_17": {
+            "value": "0x0000000000000000",
+            "weight": 0
+        },
+        "xor_1_18": {
+            "value": "0x0000000000000000",
+            "weight": 0
+        },
+        "xor_2_0": {
+            "value": "0x00000000",
+            "weight": 0
+        },
+        "xor_2_1": {
+            "value": "0x80000000",
+            "weight": 0
+        },
+        "rot_2_2": {
+            "value": "0x00000000",
+            "weight": 0
+        },
+        "rot_2_3": {
+            "value": "0x00000000",
+            "weight": 0
+        },
+        "modadd_2_4": {
+            "value": "0x00000000",
+            "weight": 0
+        },
+        "rot_2_5": {
+            "value": "0x00000000",
+            "weight": 0
+        },
+        "rot_2_6": {
+            "value": "0x00000000",
+            "weight": 0
+        },
+        "modadd_2_7": {
+            "value": "0x00000000",
+            "weight": 0
+        },
+        "xor_2_8": {
+            "value": "0x80000000",
+            "weight": 0
+        },
+        "intermediate_output_2_9": {
+            "value": "0x0000000000000000",
+            "weight": 0
+        },
+        "intermediate_output_2_10": {
+            "value": "0x80000000000000000000000080000000",
+            "weight": 0
+        },
+        "rot_2_11": {
+            "value": "0x0000000000000000",
+            "weight": 0
+        },
+        "rot_2_12": {
+            "value": "0x0000000000000000",
+            "weight": 0
+        },
+        "xor_2_13": {
+            "value": "0x0000000000000000",
+            "weight": 0
+        },
+        "rot_2_14": {
+            "value": "0x0000000000000000",
+            "weight": 0
+        },
+        "rot_2_15": {
+            "value": "0x0000000000000000",
+            "weight": 0
+        },
+        "xor_2_16": {
+            "value": "0x0000000000000000",
+            "weight": 0
+        },
+        "constant_2_17": {
+            "value": "0x0000000000000000",
+            "weight": 0
+        },
+        "xor_2_18": {
+            "value": "0x0000000000000000",
+            "weight": 0
+        },
+        "xor_3_0": {
+            "value": "0x00000000",
+            "weight": 0
+        },
+        "xor_3_1": {
+            "value": "0x00000000",
+            "weight": 0
+        },
+        "rot_3_2": {
+            "value": "0x00000020",
+            "weight": 0
+        },
+        "rot_3_3": {
+            "value": "0x00000000",
+            "weight": 0
+        },
+        "modadd_3_4": {
+            "value": "0x00000020",
+            "weight": 1
+        },
+        "rot_3_5": {
+            "value": "0x00004000",
+            "weight": 0
+        },
+        "rot_3_6": {
+            "value": "0x00000000",
+            "weight": 0
+        },
+        "modadd_3_7": {
+            "value": "0x00004000",
+            "weight": 1
+        },
+        "xor_3_8": {
+            "value": "0x00000000",
+            "weight": 0
+        },
+        "intermediate_output_3_9": {
+            "value": "0x0000000000000000",
+            "weight": 0
+        },
+        "cipher_output_3_10": {
+            "value": "0x00000020000000000000000000004000",
+            "weight": 0
+        }
+    },
+    "total_weight": 6.0,
+    "status": "SATISFIABLE",
+    "building_time_seconds": 0.025807857513427734,
+    "test_name": "find_lowest_weight_xor_differential_trail"
+}

@@ -1,0 +1,563 @@
+{
+    "cipher": "ballet_p128_k256_o128_r4",
+    "model_type": "xor_linear",
+    "solver_name": "PARKISSAT_EXT",
+    "solving_time_seconds": 3.1591763496398926,
+    "memory_megabytes": 0,
+    "components_values": {
+        "plaintext": {
+            "value": "0x04000000008400008084000000020000"
+        },
+        "key": {
+            "value": "0xfdcea20bc1f22259da23ccac8980a69361810d901e3af489ccff0cd66d1e375d"
+        },
+        "xor_0_0_o": {
+            "value": "0x00840000",
+            "weight": 0
+        },
+        "xor_0_0_i": {
+            "value": "0x00840000",
+            "weight": 0
+        },
+        "xor_0_1_o": {
+            "value": "0x00000000",
+            "weight": 0
+        },
+        "xor_0_1_i": {
+            "value": "0x00000000",
+            "weight": 0
+        },
+        "rot_0_2_o": {
+            "value": "0x00000001",
+            "weight": 0
+        },
+        "rot_0_2_i": {
+            "value": "0x04000000",
+            "weight": 0
+        },
+        "rot_0_3_o": {
+            "value": "0x00000001",
+            "weight": 0
+        },
+        "rot_0_3_i": {
+            "value": "0x00800000",
+            "weight": 0
+        },
+        "modadd_0_4_o": {
+            "value": "0x00000001",
+            "weight": 0
+        },
+        "modadd_0_4_i": {
+            "value": "0x00000001",
+            "weight": 0
+        },
+        "rot_0_5_o": {
+            "value": "0x00000001",
+            "weight": 0
+        },
+        "rot_0_5_i": {
+            "value": "0x00020000",
+            "weight": 0
+        },
+        "rot_0_6_o": {
+            "value": "0x00000001",
+            "weight": 0
+        },
+        "rot_0_6_i": {
+            "value": "0x00040000",
+            "weight": 0
+        },
+        "modadd_0_7_o": {
+            "value": "0x00000001",
+            "weight": 0
+        },
+        "modadd_0_7_i": {
+            "value": "0x00000001",
+            "weight": 0
+        },
+        "xor_0_8_o": {
+            "value": "0x80000000",
+            "weight": 0
+        },
+        "xor_0_8_i": {
+            "value": "0x80000000",
+            "weight": 0
+        },
+        "intermediate_output_0_9_o": {
+            "value": "0xfdcea20b41f22259",
+            "weight": 0
+        },
+        "intermediate_output_0_9_i": {
+            "value": "0xfdcea20b41f22259",
+            "weight": 0
+        },
+        "intermediate_output_0_10_o": {
+            "value": "0x00000000000000010000000180000000",
+            "weight": 0
+        },
+        "intermediate_output_0_10_i": {
+            "value": "0x00000000000000010000000180000000",
+            "weight": 0
+        },
+        "rot_0_11_o": {
+            "value": "0x61810d901e3af489",
+            "weight": 0
+        },
+        "rot_0_11_i": {
+            "value": "0x12c3021b203c75e9",
+            "weight": 0
+        },
+        "rot_0_12_o": {
+            "value": "0x61810d901e3af489",
+            "weight": 0
+        },
+        "rot_0_12_i": {
+            "value": "0x7a44b0c086c80f1d",
+            "weight": 0
+        },
+        "xor_0_13_o": {
+            "value": "0x61810d901e3af489",
+            "weight": 0
+        },
+        "xor_0_13_i": {
+            "value": "0x61810d901e3af489",
+            "weight": 0
+        },
+        "rot_0_14_o": {
+            "value": "0xfdcea20b41f22259",
+            "weight": 0
+        },
+        "rot_0_14_i": {
+            "value": "0x3fb9d441683e444b",
+            "weight": 0
+        },
+        "rot_0_15_o": {
+            "value": "0xfdcea20b41f22259",
+            "weight": 0
+        },
+        "rot_0_15_i": {
+            "value": "0xcfee75105a0f9112",
+            "weight": 0
+        },
+        "xor_0_16_o": {
+            "value": "0xfdcea20b41f22259",
+            "weight": 0
+        },
+        "xor_0_16_i": {
+            "value": "0xfdcea20b41f22259",
+            "weight": 0
+        },
+        "constant_0_17_o": {
+            "value": "0xfdcea20b41f22259",
+            "weight": 0
+        },
+        "constant_0_17_i": {
+            "value": "0x0000000000000000",
+            "weight": 0
+        },
+        "xor_0_18_o": {
+            "value": "0xfdcea20b41f22259",
+            "weight": 0
+        },
+        "xor_0_18_i": {
+            "value": "0xfdcea20b41f22259",
+            "weight": 0
+        },
+        "xor_1_0_o": {
+            "value": "0x00000001",
+            "weight": 0
+        },
+        "xor_1_0_i": {
+            "value": "0x00000001",
+            "weight": 0
+        },
+        "xor_1_1_o": {
+            "value": "0x00000000",
+            "weight": 0
+        },
+        "xor_1_1_i": {
+            "value": "0x00000000",
+            "weight": 0
+        },
+        "rot_1_2_o": {
+            "value": "0x00000000",
+            "weight": 0
+        },
+        "rot_1_2_i": {
+            "value": "0x00000000",
+            "weight": 0
+        },
+        "rot_1_3_o": {
+            "value": "0x00000000",
+            "weight": 0
+        },
+        "rot_1_3_i": {
+            "value": "0x00000000",
+            "weight": 0
+        },
+        "modadd_1_4_o": {
+            "value": "0x00000000",
+            "weight": 0
+        },
+        "modadd_1_4_i": {
+            "value": "0x00000000",
+            "weight": 0
+        },
+        "rot_1_5_o": {
+            "value": "0x00004000",
+            "weight": 0
+        },
+        "rot_1_5_i": {
+            "value": "0x80000000",
+            "weight": 0
+        },
+        "rot_1_6_o": {
+            "value": "0x00004000",
+            "weight": 0
+        },
+        "rot_1_6_i": {
+            "value": "0x00000001",
+            "weight": 0
+        },
+        "modadd_1_7_o": {
+            "value": "0x00006000",
+            "weight": 1
+        },
+        "modadd_1_7_i": {
+            "value": "0x00004000",
+            "weight": 0
+        },
+        "xor_1_8_o": {
+            "value": "0x00000000",
+            "weight": 0
+        },
+        "xor_1_8_i": {
+            "value": "0x00000000",
+            "weight": 0
+        },
+        "intermediate_output_1_9_o": {
+            "value": "0x2a746dfdbbb173ca",
+            "weight": 0
+        },
+        "intermediate_output_1_9_i": {
+            "value": "0x2a746dfdbbb173ca",
+            "weight": 0
+        },
+        "intermediate_output_1_10_o": {
+            "value": "0x00000000000000000000600000000000",
+            "weight": 0
+        },
+        "intermediate_output_1_10_i": {
+            "value": "0x00000000000000000000600000000000",
+            "weight": 0
+        },
+        "rot_1_11_o": {
+            "value": "0xa478be0dcbea4da9",
+            "weight": 0
+        },
+        "rot_1_11_i": {
+            "value": "0x5348f17c1b97d49b",
+            "weight": 0
+        },
+        "rot_1_12_o": {
+            "value": "0xa478be0dcbea4da9",
+            "weight": 0
+        },
+        "rot_1_12_i": {
+            "value": "0x26d4d23c5f06e5f5",
+            "weight": 0
+        },
+        "xor_1_13_o": {
+            "value": "0xa478be0dcbea4da9",
+            "weight": 0
+        },
+        "xor_1_13_i": {
+            "value": "0xa478be0dcbea4da9",
+            "weight": 0
+        },
+        "rot_1_14_o": {
+            "value": "0x2a746dfdbbb173ca",
+            "weight": 0
+        },
+        "rot_1_14_i": {
+            "value": "0x454e8dbfb7762e79",
+            "weight": 0
+        },
+        "rot_1_15_o": {
+            "value": "0x2a746dfdbbb173ca",
+            "weight": 0
+        },
+        "rot_1_15_i": {
+            "value": "0x5153a36feddd8b9e",
+            "weight": 0
+        },
+        "xor_1_16_o": {
+            "value": "0x2a746dfdbbb173ca",
+            "weight": 0
+        },
+        "xor_1_16_i": {
+            "value": "0x2a746dfdbbb173ca",
+            "weight": 0
+        },
+        "constant_1_17_o": {
+            "value": "0x2a746dfdbbb173ca",
+            "weight": 0
+        },
+        "constant_1_17_i": {
+            "value": "0x0000000000000000",
+            "weight": 0
+        },
+        "xor_1_18_o": {
+            "value": "0x2a746dfdbbb173ca",
+            "weight": 0
+        },
+        "xor_1_18_i": {
+            "value": "0x2a746dfdbbb173ca",
+            "weight": 0
+        },
+        "xor_2_0_o": {
+            "value": "0x00000000",
+            "weight": 0
+        },
+        "xor_2_0_i": {
+            "value": "0x00000000",
+            "weight": 0
+        },
+        "xor_2_1_o": {
+            "value": "0x00000000",
+            "weight": 0
+        },
+        "xor_2_1_i": {
+            "value": "0x00000000",
+            "weight": 0
+        },
+        "rot_2_2_o": {
+            "value": "0x00000000",
+            "weight": 0
+        },
+        "rot_2_2_i": {
+            "value": "0x00000000",
+            "weight": 0
+        },
+        "rot_2_3_o": {
+            "value": "0x00000000",
+            "weight": 0
+        },
+        "rot_2_3_i": {
+            "value": "0x00000000",
+            "weight": 0
+        },
+        "modadd_2_4_o": {
+            "value": "0x00000000",
+            "weight": 0
+        },
+        "modadd_2_4_i": {
+            "value": "0x00000000",
+            "weight": 0
+        },
+        "rot_2_5_o": {
+            "value": "0x00000000",
+            "weight": 0
+        },
+        "rot_2_5_i": {
+            "value": "0x00000000",
+            "weight": 0
+        },
+        "rot_2_6_o": {
+            "value": "0x00000000",
+            "weight": 0
+        },
+        "rot_2_6_i": {
+            "value": "0x00000000",
+            "weight": 0
+        },
+        "modadd_2_7_o": {
+            "value": "0x00000000",
+            "weight": 0
+        },
+        "modadd_2_7_i": {
+            "value": "0x00000000",
+            "weight": 0
+        },
+        "xor_2_8_o": {
+            "value": "0x00006000",
+            "weight": 0
+        },
+        "xor_2_8_i": {
+            "value": "0x00006000",
+            "weight": 0
+        },
+        "intermediate_output_2_9_o": {
+            "value": "0xe9d38cdb1b59e7be",
+            "weight": 0
+        },
+        "intermediate_output_2_9_i": {
+            "value": "0xe9d38cdb1b59e7be",
+            "weight": 0
+        },
+        "intermediate_output_2_10_o": {
+            "value": "0x00000000000000000000000000006000",
+            "weight": 0
+        },
+        "intermediate_output_2_10_i": {
+            "value": "0x00000000000000000000000000006000",
+            "weight": 0
+        },
+        "rot_2_11_o": {
+            "value": "0xe9d38cdb1b59e7be",
+            "weight": 0
+        },
+        "rot_2_11_i": {
+            "value": "0x7dd3a719b636b3cf",
+            "weight": 0
+        },
+        "rot_2_12_o": {
+            "value": "0xe9d38cdb1b59e7be",
+            "weight": 0
+        },
+        "rot_2_12_i": {
+            "value": "0xf3df74e9c66d8dac",
+            "weight": 0
+        },
+        "xor_2_13_o": {
+            "value": "0xe9d38cdb1b59e7be",
+            "weight": 0
+        },
+        "xor_2_13_i": {
+            "value": "0xe9d38cdb1b59e7be",
+            "weight": 0
+        },
+        "rot_2_14_o": {
+            "value": "0xe9d38cdb1b59e7be",
+            "weight": 0
+        },
+        "rot_2_14_i": {
+            "value": "0xdd3a719b636b3cf7",
+            "weight": 0
+        },
+        "rot_2_15_o": {
+            "value": "0xe9d38cdb1b59e7be",
+            "weight": 0
+        },
+        "rot_2_15_i": {
+            "value": "0xf74e9c66d8dacf3d",
+            "weight": 0
+        },
+        "xor_2_16_o": {
+            "value": "0xe9d38cdb1b59e7be",
+            "weight": 0
+        },
+        "xor_2_16_i": {
+            "value": "0xe9d38cdb1b59e7be",
+            "weight": 0
+        },
+        "constant_2_17_o": {
+            "value": "0xe9d38cdb1b59e7be",
+            "weight": 0
+        },
+        "constant_2_17_i": {
+            "value": "0x0000000000000000",
+            "weight": 0
+        },
+        "xor_2_18_o": {
+            "value": "0xe9d38cdb1b59e7be",
+            "weight": 0
+        },
+        "xor_2_18_i": {
+            "value": "0xe9d38cdb1b59e7be",
+            "weight": 0
+        },
+        "xor_3_0_o": {
+            "value": "0x00008000",
+            "weight": 0
+        },
+        "xor_3_0_i": {
+            "value": "0x00008000",
+            "weight": 0
+        },
+        "xor_3_1_o": {
+            "value": "0x00008000",
+            "weight": 0
+        },
+        "xor_3_1_i": {
+            "value": "0x00008000",
+            "weight": 0
+        },
+        "rot_3_2_o": {
+            "value": "0x00000000",
+            "weight": 0
+        },
+        "rot_3_2_i": {
+            "value": "0x00000000",
+            "weight": 0
+        },
+        "rot_3_3_o": {
+            "value": "0x00000000",
+            "weight": 0
+        },
+        "rot_3_3_i": {
+            "value": "0x00000000",
+            "weight": 0
+        },
+        "modadd_3_4_o": {
+            "value": "0x00000000",
+            "weight": 0
+        },
+        "modadd_3_4_i": {
+            "value": "0x00000000",
+            "weight": 0
+        },
+        "rot_3_5_o": {
+            "value": "0x30000000",
+            "weight": 0
+        },
+        "rot_3_5_i": {
+            "value": "0x00006000",
+            "weight": 0
+        },
+        "rot_3_6_o": {
+            "value": "0x20000000",
+            "weight": 0
+        },
+        "rot_3_6_i": {
+            "value": "0x00008000",
+            "weight": 0
+        },
+        "modadd_3_7_o": {
+            "value": "0x20000000",
+            "weight": 1
+        },
+        "modadd_3_7_i": {
+            "value": "0x30000000",
+            "weight": 0
+        },
+        "xor_3_8_o": {
+            "value": "0x00008000",
+            "weight": 0
+        },
+        "xor_3_8_i": {
+            "value": "0x00008000",
+            "weight": 0
+        },
+        "intermediate_output_3_9_o": {
+            "value": "0x0000000000000000",
+            "weight": 0
+        },
+        "intermediate_output_3_9_i": {
+            "value": "0x0000000000000000",
+            "weight": 0
+        },
+        "cipher_output_3_10_o": {
+            "value": "0x00000000000080000000800020000000",
+            "weight": 0
+        },
+        "cipher_output_3_10_i": {
+            "value": "0x00000000000080000000800020000000",
+            "weight": 0
+        }
+    },
+    "total_weight": 2.0,
+    "status": "SATISFIABLE",
+    "building_time_seconds": 0.05482125282287598,
+    "test_name": "find_lowest_weight_xor_linear_trail"
+}
