@@ -1,0 +1,283 @@
+{
+    "block_size": 128,
+    "key_size": 256,
+    "num_rounds": 7,
+    "total_time_seconds": 19323.53,
+    "impossible_differentials": [
+        {
+            "pt_bit": 6,
+            "ct_bit": 96,
+            "time_seconds": 0.1472
+        },
+        {
+            "pt_bit": 6,
+            "ct_bit": 97,
+            "time_seconds": 1.1571
+        },
+        {
+            "pt_bit": 6,
+            "ct_bit": 98,
+            "time_seconds": 1.1667
+        },
+        {
+            "pt_bit": 6,
+            "ct_bit": 99,
+            "time_seconds": 1.1644
+        },
+        {
+            "pt_bit": 6,
+            "ct_bit": 100,
+            "time_seconds": 1.1694
+        },
+        {
+            "pt_bit": 6,
+            "ct_bit": 101,
+            "time_seconds": 1.1746
+        },
+        {
+            "pt_bit": 6,
+            "ct_bit": 102,
+            "time_seconds": 1.1678
+        },
+        {
+            "pt_bit": 7,
+            "ct_bit": 96,
+            "time_seconds": 0.1499
+        },
+        {
+            "pt_bit": 7,
+            "ct_bit": 97,
+            "time_seconds": 1.1577
+        },
+        {
+            "pt_bit": 7,
+            "ct_bit": 98,
+            "time_seconds": 1.1658
+        },
+        {
+            "pt_bit": 7,
+            "ct_bit": 99,
+            "time_seconds": 1.1637
+        },
+        {
+            "pt_bit": 7,
+            "ct_bit": 100,
+            "time_seconds": 1.1687
+        },
+        {
+            "pt_bit": 7,
+            "ct_bit": 101,
+            "time_seconds": 1.1686
+        },
+        {
+            "pt_bit": 8,
+            "ct_bit": 96,
+            "time_seconds": 0.1495
+        },
+        {
+            "pt_bit": 8,
+            "ct_bit": 97,
+            "time_seconds": 1.161
+        },
+        {
+            "pt_bit": 8,
+            "ct_bit": 98,
+            "time_seconds": 1.1672
+        },
+        {
+            "pt_bit": 8,
+            "ct_bit": 100,
+            "time_seconds": 1.157
+        },
+        {
+            "pt_bit": 8,
+            "ct_bit": 101,
+            "time_seconds": 1.1765
+        },
+        {
+            "pt_bit": 9,
+            "ct_bit": 96,
+            "time_seconds": 0.1717
+        },
+        {
+            "pt_bit": 9,
+            "ct_bit": 97,
+            "time_seconds": 1.1497
+        },
+        {
+            "pt_bit": 9,
+            "ct_bit": 98,
+            "time_seconds": 1.1476
+        },
+        {
+            "pt_bit": 10,
+            "ct_bit": 96,
+            "time_seconds": 1.1641
+        },
+        {
+            "pt_bit": 10,
+            "ct_bit": 97,
+            "time_seconds": 1.1614
+        },
+        {
+            "pt_bit": 10,
+            "ct_bit": 98,
+            "time_seconds": 1.1546
+        },
+        {
+            "pt_bit": 11,
+            "ct_bit": 96,
+            "time_seconds": 1.1695
+        },
+        {
+            "pt_bit": 11,
+            "ct_bit": 99,
+            "time_seconds": 1.1688
+        },
+        {
+            "pt_bit": 12,
+            "ct_bit": 96,
+            "time_seconds": 1.1494
+        },
+        {
+            "pt_bit": 13,
+            "ct_bit": 96,
+            "time_seconds": 1.1568
+        },
+        {
+            "pt_bit": 14,
+            "ct_bit": 96,
+            "time_seconds": 1.1553
+        },
+        {
+            "pt_bit": 17,
+            "ct_bit": 96,
+            "time_seconds": 1.1575
+        },
+        {
+            "pt_bit": 46,
+            "ct_bit": 96,
+            "time_seconds": 1.1557
+        },
+        {
+            "pt_bit": 47,
+            "ct_bit": 96,
+            "time_seconds": 1.1617
+        },
+        {
+            "pt_bit": 48,
+            "ct_bit": 96,
+            "time_seconds": 1.1437
+        },
+        {
+            "pt_bit": 78,
+            "ct_bit": 96,
+            "time_seconds": 1.1585
+        },
+        {
+            "pt_bit": 79,
+            "ct_bit": 96,
+            "time_seconds": 1.181
+        },
+        {
+            "pt_bit": 80,
+            "ct_bit": 96,
+            "time_seconds": 1.1622
+        },
+        {
+            "pt_bit": 81,
+            "ct_bit": 96,
+            "time_seconds": 1.1481
+        },
+        {
+            "pt_bit": 111,
+            "ct_bit": 96,
+            "time_seconds": 0.1472
+        },
+        {
+            "pt_bit": 111,
+            "ct_bit": 97,
+            "time_seconds": 1.1599
+        },
+        {
+            "pt_bit": 111,
+            "ct_bit": 98,
+            "time_seconds": 1.1642
+        },
+        {
+            "pt_bit": 111,
+            "ct_bit": 99,
+            "time_seconds": 1.1658
+        },
+        {
+            "pt_bit": 111,
+            "ct_bit": 100,
+            "time_seconds": 1.171
+        },
+        {
+            "pt_bit": 111,
+            "ct_bit": 102,
+            "time_seconds": 1.158
+        },
+        {
+            "pt_bit": 112,
+            "ct_bit": 96,
+            "time_seconds": 0.1529
+        },
+        {
+            "pt_bit": 112,
+            "ct_bit": 97,
+            "time_seconds": 1.1556
+        },
+        {
+            "pt_bit": 112,
+            "ct_bit": 98,
+            "time_seconds": 1.1695
+        },
+        {
+            "pt_bit": 112,
+            "ct_bit": 99,
+            "time_seconds": 1.1693
+        },
+        {
+            "pt_bit": 112,
+            "ct_bit": 100,
+            "time_seconds": 1.1689
+        },
+        {
+            "pt_bit": 112,
+            "ct_bit": 101,
+            "time_seconds": 1.1667
+        },
+        {
+            "pt_bit": 113,
+            "ct_bit": 96,
+            "time_seconds": 0.1633
+        },
+        {
+            "pt_bit": 114,
+            "ct_bit": 96,
+            "time_seconds": 0.1457
+        },
+        {
+            "pt_bit": 116,
+            "ct_bit": 96,
+            "time_seconds": 1.1578
+        },
+        {
+            "pt_bit": 117,
+            "ct_bit": 96,
+            "time_seconds": 1.1867
+        },
+        {
+            "pt_bit": 118,
+            "ct_bit": 96,
+            "time_seconds": 1.1618
+        },
+        {
+            "pt_bit": 119,
+            "ct_bit": 96,
+            "time_seconds": 1.1563
+        }
+    ]
+}
