@@ -1,0 +1,10 @@
+{
+    "cipher": "ballet_p128_k256_o128_r8",
+    "model_type": "impossible_xor_differential_one_solution",
+    "solver_name": "Chuffed",
+    "solving_time_seconds": 0.007,
+    "memory_megabytes": 0.12,
+    "components_values": {},
+    "total_weight": 0,
+    "status": "UNSATISFIABLE"
+}
