@@ -60,8 +60,8 @@ def searchImpossibleDifferentials(pt_combinations,ct_combinations,block_size,key
     
 
 def parallel_resolution(filename,num_rounds,block_size, key_size,c):
-    pt_combinations = list(combinations(range(10), 2))
-    ct_combinations = list(range(10))
+    pt_combinations = list(combinations(range(block_size), 2))
+    ct_combinations = list(range(block_size))
     pt_comb_partial_len = len(pt_combinations) // c
 
 
