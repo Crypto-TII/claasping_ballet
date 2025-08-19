@@ -28,15 +28,23 @@ intermediate_outputs_8round = {
 }
 # 9 round trail used as a possible starting point for the search
 intermediate_outputs_9round = {
-    'intermediate_output_0_9': '0000000000000000', 'intermediate_output_0_10': '00000100000000000000000080040000',
-    'intermediate_output_1_9': '0000000000000000', 'intermediate_output_1_10': '00000000000040000000400e00000000',
-    'intermediate_output_2_9': '0000000000000000', 'intermediate_output_2_10': '0000400000000400000080000000400e', 
-    'intermediate_output_3_9': '0000000000000000', 'intermediate_output_3_10': '00000400010800000109000000008000',
-    'intermediate_output_4_9': '0000000000000000', 'intermediate_output_4_10': '01080000020100000000000001090000', 
-    'intermediate_output_5_9': '0000000000000000', 'intermediate_output_5_10': '02010000400000044000000400000000', 
-    'intermediate_output_6_9': '0000000000000000', 'intermediate_output_6_10': '40000004804000000000000040000004', 
-    'intermediate_output_7_9': '0000000000000000', 'intermediate_output_7_10': '80400000800000100002001000000000', 
-    'intermediate_output_8_9': '0000000000000000'
+    'intermediate_output_0_9':  '0x00000000000000000000000000000000', 
+    'intermediate_output_0_10': '0x00000100000000000000000080040000',
+    'intermediate_output_1_9':  '0x00000000000000000000000000000000', 
+    'intermediate_output_1_10': '0x00000000000040000000400e00000000',
+    'intermediate_output_2_9':  '0x00000000000000000000000000000000', 
+    'intermediate_output_2_10': '0x0000400000000400000080000000400e', 
+    'intermediate_output_3_9':  '0x00000000000000000000000000000000', 
+    'intermediate_output_3_10': '0x00000400010800000109000000008000',
+    'intermediate_output_4_9':  '0x00000000000000000000000000000000', 
+    'intermediate_output_4_10': '0x01080000020100000000000001090000', 
+    'intermediate_output_5_9':  '0x00000000000000000000000000000000', 
+    'intermediate_output_5_10': '0x02010000400000044000000400000000', 
+    'intermediate_output_6_9':  '0x00000000000000000000000000000000', 
+    'intermediate_output_6_10': '0x40000004804000000000000040000004', 
+    'intermediate_output_7_9':  '0x00000000000000000000000000000000', 
+    'intermediate_output_7_10': '0x80400000800000100002001000000000', 
+    'intermediate_output_8_9':  '0x00000000000000000000000000000000'
 }
 block_bit, key_bit = (128,128)
 intermediate_outputs = intermediate_outputs_9round
