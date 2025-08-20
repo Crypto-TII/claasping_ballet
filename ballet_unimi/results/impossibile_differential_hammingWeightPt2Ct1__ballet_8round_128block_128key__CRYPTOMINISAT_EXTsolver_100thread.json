@@ -1,0 +1,12 @@
+{
+	"block_size": 128,
+	"key_size": 128,
+	"num_rounds": 8,
+	"num_core": 100,
+	"total_time_seconds": 2662.81,
+	"impossible_differentials": [
+		{"pt_bits": [6, 111], "ct_bit": [96], "time_seconds": 0.19},
+		{"pt_bits": [6, 111], "ct_bit": [97], "time_seconds": 0.1946},
+		{"pt_bits": [49, 81], "ct_bit": [96], "time_seconds": 0.1987},
+	]
+}

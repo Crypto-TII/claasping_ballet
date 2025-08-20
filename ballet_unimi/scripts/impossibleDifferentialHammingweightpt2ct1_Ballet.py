@@ -86,12 +86,12 @@ def parallel_resolution(filename,num_rounds,block_size, key_size,c):
             
 
 
-c = 11 
+c = 100
 configurations = [(128, 128), (128, 256), (256, 256)]
 
-for num_rounds in range(4, 13):
+for num_rounds in range(6, 10):
     for block_size, key_size in configurations:
-        filename = f"impossibile_differential_hammingWeight2__ballet_{num_rounds}round_{block_size}block_{key_size}key__CRYPTOMINISAT_EXTsolver_{c}thread.json"
+        filename = f"impossibile_differential_hammingWeightPt2Ct1__ballet_{num_rounds}round_{block_size}block_{key_size}key__CRYPTOMINISAT_EXTsolver_{c}thread.json"
         output_data = '{'+f'\n\t"block_size": {block_size},\n\t"key_size": {key_size},\n\t"num_rounds": {num_rounds},\n\t"num_core": {c},'
         save(filename,"w",output_data)
 

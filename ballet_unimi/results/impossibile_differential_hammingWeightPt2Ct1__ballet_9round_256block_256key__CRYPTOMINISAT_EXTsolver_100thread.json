@@ -1,0 +1,9 @@
+{
+	"block_size": 256,
+	"key_size": 256,
+	"num_rounds": 9,
+	"num_core": 100,
+	"total_time_seconds": 43757.79,
+	"impossible_differentials": [
+	]
+}
