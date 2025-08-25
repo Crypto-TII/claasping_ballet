@@ -8,6 +8,22 @@ from claasp.cipher_modules.models.utils import set_fixed_variables, integer_to_b
 
 solver = "PARKISSAT_EXT" # use 100 core
 
+# 7 round trail used as a possible starting point for the search
+intermediate_outputs_7round = {
+    "intermediate_output_0_9":  "0x00000000000000000000000000000000",
+    "intermediate_output_0_10": "0x00440000000800000000800000044002",
+    "intermediate_output_1_9":  "0x00000000000000000000000000000000",
+    "intermediate_output_1_10": "0x00080000000000000001000000008000",
+    "intermediate_output_2_9":  "0x00000000000000000000000000000000",
+    "intermediate_output_2_10": "0x00000000000000000000000000010000",
+    "intermediate_output_3_9":  "0x00000000000000000000000000000000",
+    "intermediate_output_3_10": "0x00000000000000008000000000000000",
+    "intermediate_output_4_9":  "0x00000000000000000000000000000000",
+    "intermediate_output_4_10": "0x00000000000001000000200080000000",
+    "intermediate_output_5_9":  "0x00000000000000000000000000000000",
+    "intermediate_output_5_10": "0x00000100004200000840400000002000",
+    "intermediate_output_6_9":  "0x00000000000000000000000000000000"
+}
 # 8 round trail used as a possible starting point for the search
 intermediate_outputs_8round = {
     "intermediate_output_0_9":  "0x00000000000000000000000000000000",
@@ -47,7 +63,7 @@ intermediate_outputs_9round = {
     'intermediate_output_8_9':  '0x00000000000000000000000000000000'
 }
 block_bit, key_bit = (128,128)
-intermediate_outputs = intermediate_outputs_9round
+intermediate_outputs = intermediate_outputs_7round
 
 
 
@@ -56,8 +72,8 @@ def hex_to_bitlist(hex_str):
     bit_len = (len(hex_str) - 2) * 4
     return integer_to_bit_list(val_int, bit_len, "big")
 
-for round in range(10, 16): 
-    filename= f"find_lowest_weight_xor_differential_trail_starting_from_given_trail__ballet_{block_bit}block_{key_bit}key_{round}rounds9fixed__{solver}solver__100thread.json"
+for round in range(8, 16): 
+    filename= f"find_lowest_weight_xor_differential_trail_starting_from_given_trail__ballet_{block_bit}block_{key_bit}key_{round}rounds7fixed__{solver}solver__50thread.json"
     start_date = datetime.datetime.now()
 
     ballet = BalletBlockCipher(block_bit_size=block_bit, key_bit_size=key_bit, number_of_rounds=round)
