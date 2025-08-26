@@ -63,7 +63,7 @@ intermediate_outputs_9round = {
     'intermediate_output_8_9':  '0x00000000000000000000000000000000'
 }
 block_bit, key_bit = (128,128)
-
+maxRoundReachableFixing = {8:15, 7:14, 6:13} # fixing 8 rounds we might also try calculate round 15 but we will do it only in case round 14 is ok (its weight is less than 128)
 
 
 def hex_to_bitlist(hex_str):
@@ -71,8 +71,12 @@ def hex_to_bitlist(hex_str):
     bit_len = (len(hex_str) - 2) * 4
     return integer_to_bit_list(val_int, bit_len, "big")
 
-for round in range(10, 15): 
+for round in range(10, 16): 
     for intermediate_outputs, num_fix_round in [(intermediate_outputs_9round,9), (intermediate_outputs_8round,8), (intermediate_outputs_7round,7)]:
+        # Skip rounds where the computation is considered too slow for the current fix round
+        if round > maxRoundReachableFixing[num_fix_round]:
+            break
+
         filename= f"find_lowest_weight_xor_differential_trail_starting_from_given_trail__ballet_{block_bit}block_{key_bit}key_{round}rounds{num_fix_round}fixed__{solver}solver__50thread.json"
         start_date = datetime.datetime.now()
 
