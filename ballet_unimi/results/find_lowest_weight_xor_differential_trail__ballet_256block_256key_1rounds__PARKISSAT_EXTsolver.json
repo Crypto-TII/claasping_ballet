@@ -1,0 +1,63 @@
+{
+    "cipher": "ballet_p256_k256_o256_r1",
+    "model_type": "xor_differential",
+    "solver_name": "PARKISSAT_EXT",
+    "solving_time_seconds": 1.0374791622161865,
+    "memory_megabytes": 0,
+    "components_values": {
+        "plaintext": {
+            "value": "0x0200000000000000ffffffffffffffffffffffffffffffff0001000000000000"
+        },
+        "key": {
+            "value": "0x0000000000000000000000000000000000000000000000000000000000000000"
+        },
+        "xor_0_0": {
+            "value": "0x0000000000000000",
+            "weight": 0
+        },
+        "xor_0_1": {
+            "value": "0xffffffffffffffff",
+            "weight": 0
+        },
+        "rot_0_2": {
+            "value": "0x8000000000000000",
+            "weight": 0
+        },
+        "rot_0_3": {
+            "value": "0x0000000000000000",
+            "weight": 0
+        },
+        "modadd_0_4": {
+            "value": "0x8000000000000000",
+            "weight": 0
+        },
+        "rot_0_5": {
+            "value": "0x8000000000000000",
+            "weight": 0
+        },
+        "rot_0_6": {
+            "value": "0x0000000000000000",
+            "weight": 0
+        },
+        "modadd_0_7": {
+            "value": "0x8000000000000000",
+            "weight": 0
+        },
+        "xor_0_8": {
+            "value": "0xffffffffffffffff",
+            "weight": 0
+        },
+        "intermediate_output_0_9": {
+            "value": "0x00000000000000000000000000000000",
+            "weight": 0
+        },
+        "cipher_output_0_10": {
+            "value": "0x8000000000000000ffffffffffffffffffffffffffffffff8000000000000000",
+            "weight": 0
+        }
+    },
+    "total_weight": 0.0,
+    "status": "SATISFIABLE",
+    "building_time_seconds": 0.00744175910949707,
+    "test_name": "find_lowest_weight_xor_differential_trail"
+}

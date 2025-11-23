@@ -1,0 +1,102 @@
+{
+    "cipher": "ballet_p256_k256_o256_r1",
+    "model_type": "xor_linear",
+    "solver_name": "PARKISSAT_EXT",
+    "solving_time_seconds": 1.08477783203125,
+    "memory_megabytes": 0,
+    "components_values": {
+        "plaintext": {
+            "value": "0x0400000000000000ff7bffffffffffffff7bffffffffffff0002000000000000"
+        },
+        "key_0_1": {
+            "value": "0xffffffffffffffff"
+        },
+        "key_0_8": {
+            "value": "0xffffffffffffffff"
+        },
+        "xor_0_0_o": {
+            "value": "0x0084000000000000",
+            "weight": 0
+        },
+        "xor_0_0_i": {
+            "value": "0x0084000000000000",
+            "weight": 0
+        },
+        "xor_0_1_o": {
+            "value": "0xffffffffffffffff",
+            "weight": 0
+        },
+        "xor_0_1_i": {
+            "value": "0xffffffffffffffff",
+            "weight": 0
+        },
+        "rot_0_2_o": {
+            "value": "0x0000000000000001",
+            "weight": 0
+        },
+        "rot_0_2_i": {
+            "value": "0x0400000000000000",
+            "weight": 0
+        },
+        "rot_0_3_o": {
+            "value": "0x0000000000000001",
+            "weight": 0
+        },
+        "rot_0_3_i": {
+            "value": "0x0080000000000000",
+            "weight": 0
+        },
+        "modadd_0_4_o": {
+            "value": "0x0000000000000001",
+            "weight": 0
+        },
+        "modadd_0_4_i": {
+            "value": "0x0000000000000001",
+            "weight": 0
+        },
+        "rot_0_5_o": {
+            "value": "0x0000000000000001",
+            "weight": 0
+        },
+        "rot_0_5_i": {
+            "value": "0x0002000000000000",
+            "weight": 0
+        },
+        "rot_0_6_o": {
+            "value": "0x0000000000000001",
+            "weight": 0
+        },
+        "rot_0_6_i": {
+            "value": "0x0004000000000000",
+            "weight": 0
+        },
+        "modadd_0_7_o": {
+            "value": "0x0000000000000001",
+            "weight": 0
+        },
+        "modadd_0_7_i": {
+            "value": "0x0000000000000001",
+            "weight": 0
+        },
+        "xor_0_8_o": {
+            "value": "0xffffffffffffffff",
+            "weight": 0
+        },
+        "xor_0_8_i": {
+            "value": "0xffffffffffffffff",
+            "weight": 0
+        },
+        "cipher_output_0_10_o": {
+            "value": "0x0000000000000001ffffffffffffffffffffffffffffffff0000000000000001",
+            "weight": 0
+        },
+        "cipher_output_0_10_i": {
+            "value": "0x0000000000000001ffffffffffffffffffffffffffffffff0000000000000001",
+            "weight": 0
+        }
+    },
+    "total_weight": 0.0,
+    "status": "SATISFIABLE",
+    "building_time_seconds": 0.04715394973754883,
+    "test_name": "find_lowest_weight_xor_linear_trail"
+}
