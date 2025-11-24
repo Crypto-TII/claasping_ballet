@@ -1,0 +1,16 @@
+{
+	"block_size": 128,
+	"key_size": 128,
+	"num_rounds": 8,
+	"num_core": 64,
+	"total_time_seconds": 201844.26,
+	"impossible_differentials": [
+		{"pt_bits": [6, 111], "ct_bit": [32, 64], "time_seconds": 0.132},
+		{"pt_bits": [6, 111], "ct_bit": [33, 65], "time_seconds": 0.2256},
+		{"pt_bits": [6, 111], "ct_bit": [34, 66], "time_seconds": 0.2419},
+		{"pt_bits": [6, 111], "ct_bit": [35, 67], "time_seconds": 0.1969},
+		{"pt_bits": [6, 111], "ct_bit": [36, 68], "time_seconds": 0.2267},
+		{"pt_bits": [6, 111], "ct_bit": [38, 70], "time_seconds": 0.1324},
+		{"pt_bits": [6, 111], "ct_bit": [96, 97], "time_seconds": 0.2314},
+	]
+}
